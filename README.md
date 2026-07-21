@@ -42,7 +42,38 @@ The project uses the MNIST Handwritten Digit Dataset.
 | Image Type | Grayscale |
 | Classes | 0-9 |
 
+### Dataset Splitting
 
+```
+70000 Images
+       |
+   MNIST Dataset
+       |
+------------------------
+|                      |
+60000               10000
+Train                Test
+|
+|
+48000
+Training
+|
+12000
+Validation
+
+```
+
+Final Dataset Design:
+
+```
+Training Dataset      : 48,000
+Validation Dataset   : 12,000
+Testing Dataset      : 10,000
+
+```
+
+
+---
 
 ## Technologies Used
 
